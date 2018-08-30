@@ -1,0 +1,384 @@
+
+body {
+    background-color: grey;
+
+}
+
+/*hero-section*/
+
+div.hero.jumbotron {
+    background-image:linear-gradient(rgba(56, 55, 55, 0.7), rgba(99, 96, 96, 0.7)), url(pic-2.jpg);
+    height: 50vh;
+    background-size: cover;
+}
+
+div.hero-text {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300px;
+    position: absolute;
+    margin: 90px 300px;
+}
+
+
+
+/*Section after hero-section*/
+div.section-2.container {
+    background-color: #fff;
+    padding: 20px 9p0px;
+ } 
+
+
+
+
+ /*......Section containing cards......*/
+ .main-page {
+    border: 0.5px solid #f5f5f5;
+    background-color: #f5f5f5;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+div.card.thumbnail{ 
+    box-shadow: 0 0.2rem 0.2rem rgba(92, 90, 90, 0.9);
+    margin-top: 10px;
+    background-color: #fff;
+    text-align: justify;
+}
+
+div.card.thumbnail:hover {
+    box-shadow: none;
+    transition: 1.5s;
+ }
+
+ .earth-glyphicons {
+     margin-right: 10px;
+ }
+
+ .earth {
+     margin-left: 10px;
+ }
+
+ ul.pagination {
+    margin-left: 150px;
+}
+
+a.undefined{
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color:#ec722b;
+    border-color:#ec722b;
+}
+
+
+ 
+ /*.....Section containing the side-bar......*/
+.side-bar {
+    font-size: 16px;
+}
+
+.search-bar {
+    border-radius: 5px;
+    text-align: center;
+}
+
+.search-bar:hover {
+    box-shadow: 0 1px 3px rgba(4, 9, 19, 0.7);
+}
+
+.search{
+    margin-bottom: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search:hover {
+    box-shadow: 0 3px 4px rgba(4, 9, 19, 0.7);
+}
+
+div.side.thumbnail {
+    margin-top: 30px;
+    background-color: #f5f5f5ff;
+    box-sizing: border-box;
+}
+
+input.form-control {
+    background-color: rgb(237, 237, 241);
+    color:black;
+}
+
+div.form-group {
+    box-sizing: border-box;
+    margin-right: 70px;
+    margin-top: 12px;
+    font-size: 50px;
+}
+
+.categories {
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav>li>a {
+    color: #ec722b;
+}
+
+.agent {
+    background-color:#ec722b;
+    height: 45vh;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.agent-text {
+    font-size: 35px;
+    color: #fff;
+    margin: auto;
+    margin-top: 45px;
+}
+
+.text-1 {
+    color: white;
+    margin: auto;
+    font-size: 18px;
+    margin-left: -15px;
+}
+
+.text-2 {
+    color: white;
+    margin: auto;
+    font-size: 18px;
+}
+
+button.button.btn.btn-default {
+    display: inline-block;
+    font-weight: 300;
+    padding: 10px 30px;
+    margin: auto;
+    margin-top: 30px;
+    color: #09639e;
+    overflow-x: hidden;
+}
+
+
+
+
+
+/*.....Section containing text......*/
+  .section-3 {
+    margin-top: 40px;
+    background-color: #f5f5f5;
+}
+
+/*Image Zoom effects
+  .pic img {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    max-width: 100%;
+}
+.pic:hover{
+    -webkit-transform:scale(1.3); 
+    -moz-transform:scale(1.3);
+    -o-transform:scale(1.3);
+     transform:scale(1.3);
+     transition: 1s;
+     box-shadow: 0 0.5rem 0.5rem rgba(39, 39, 39, 0.9);
+}
+
+.pic {
+  margin-top: 30px;
+  width:50%;
+  overflow: hidden;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+  
+ul.pagination.pager {
+    margin-left:350px;
+    margin-right:350px;
+   
+}  */
+
+.text {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+/*media query styling*/
+
+/*small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+   
+    div.hero.jumbotron {
+        background-image:linear-gradient(rgba(56, 55, 55, 0.7), rgba(99, 96, 96, 0.7)), url(pic-2.jpg);
+        height: 20vh;
+        background-size: cover;      
+        margin-bottom: 5px;
+        box-sizing: border-box;
+        width: auto;
+    }
+
+    div.card.thumbnail {
+        font-size: 70px;
+    }
+
+    .agent {
+        background-color:#ec722b;
+        height: 80vh;
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .agent-text {
+        font-size: 35px;
+        color: #fff;
+        margin: auto;
+        margin-top: 45px;
+    }
+    
+    .text-1 {
+        color: white;
+        margin: auto;
+        font-size: 18px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .text-2 {
+        color: white;
+        margin: auto;
+        font-size: 18px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    div.text {
+        margin-top: 50px;
+        text-align: justify;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 15px;
+    }
+
+}
+
+/*small phones to small tablets: 481px to 767px*/
+@media only screen and (max-width: 767px) {
+}
+
+/*small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width: 1023px) {
+    div.hero-text {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 55px;
+        font-weight: 300px;
+        text-align: center;
+        margin-top: 70px;
+        margin-left: 90px;
+    }
+    div.hero.jumbotron {
+        background-image:linear-gradient(rgba(56, 55, 55, 0.7), rgba(99, 96, 96, 0.7)), url(pic-2.jpg);
+        height: 30vh;
+        background-size: cover;
+        margin-bottom: 5px;
+        box-sizing: border-box;
+        width: auto;
+    }
+
+    .text {
+        margin-top: 50px;
+        text-align: justify;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 25px;
+        
+    }
+
+    ul.pagination {
+        margin-right: 5px;
+    }
+
+    .categories {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .nav {
+        text-align: left;
+    }
+    
+    div.card.thumbnail {
+        font-size: 18px;
+        text-align: left;
+
+    }
+
+
+}
+
+/*small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width: 1023px) {
+
+}
+
+/* big tablets to  desktops: from 1024 to 1200px*/
+@media only screen and (max-width: 1200px) {
+
+    div.hero.jumbotron {
+        background-image:linear-gradient(rgba(56, 55, 55, 0.7), rgba(99, 96, 96, 0.7)), url(pic-2.jpg);
+        /*background: linear-gradient(rgb(168, 165, 165));  */
+        height: 30vh;
+        background-size: cover;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        width: auto;
+    }
+
+    div.hero-text {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 300px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        position: absolute;
+        margin-left: 140px;
+    }
+
+    div.card.thumbnail {
+        font-size: 18px;
+        text-align: justify;
+
+    }
+
+    ul.pagination {
+        margin-left: 60px;
+    }
+
+    .text {
+        margin-top: 50px;
+        text-align: justify;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 27px;
+        margin-bottom: 30px;
+        
+    }
+
+    .providers {
+        width: 300%;
+    }
+
+}

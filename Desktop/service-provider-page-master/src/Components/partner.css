@@ -1,0 +1,86 @@
+
+div.slider {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.providers{
+    margin-top: 40px;
+    width: 200%;
+    margin-bottom: 20px;
+    margin-left: 250px;
+}
+
+.providers1{
+    margin-top: 40px;
+    width: 200%;
+    margin-bottom: 20px;
+    margin-left: 125px;   
+}
+
+.providers2{
+    margin-top: 40px;
+    width: 200%;
+    margin-bottom: 20px;   
+}
+
+.providers3{
+    margin-top: 40px;
+    width: 200%;
+    margin-bottom: 20px;
+    margin-left: -125px;  
+}
+
+button.slick-arrow.slick-prev{
+    background-color: black;
+}
+
+button.slick-arrow.slick-next{
+    background-color: black;
+}
+
+
+
+/*media query styling*/
+
+/*small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    .providers{
+        margin-top: 40px;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 250px;
+    }
+    
+    .providers1{
+        margin-top: 40px;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 125px;   
+    } 
+}    
+
+/*small phones to small tablets: 481px to 767px*/
+@media only screen and (max-width: 767px) {
+}
+
+/*small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width: 1023px) {
+    .providers{
+        margin-top: 40px;
+        width: 390%;
+        margin-bottom: 20px;
+        margin-left: 43px;
+    }
+   
+}
+
+/*small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width: 1023px) {
+
+}
+
+/* big tablets to  desktops*/
+@media only screen and (max-width: 1200px) {
+
+}
